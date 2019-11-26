@@ -42,7 +42,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-128755260-1');
 </script>
 </head>
@@ -626,7 +625,7 @@
         </div>
       </div>
       <div class="row">
-        <div id="isotope"> 
+        <div id="isotope">
           <!--
           <div class="col-md-4 blockfiniti ecosystem product ipfs roadmap">
             <div class="cre-animate" data-animation="scale-up" data-delay="0" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
@@ -635,8 +634,8 @@
                 </a> <img alt="blog-image" class="filler responsive rounded" src="images/slider/blockfiniti.jpg"> </div>
               <div class="blog-wrapper">
                 <h4><a href="#">Blockfiniti Overview</a></h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-                  elit, sed do eiusmod tempor incididunt ut labore et 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit, sed do eiusmod tempor incididunt ut labore et
                   dolore magna aliqua. </p>
                 <div class="blog-info"> <i class="fal fa-calendar-edit"></i> 23 JAN 2019 <a href="blog_blockfiniti.html" class="links"><i class="fal fa-link"></i> Read more</a> </div>
               </div>
@@ -827,29 +826,38 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 text-sm-left"> <span style="font-size: 11px">&copy; Copyright 2019 - All Rights Reserved </span> </div>
-        <div class="col-md-6 text-sm-left text-md-right"> <span style="font-size: 11px">Last updated 18 September 2019</span> </div>
+        <div class="col-md-6 text-sm-left text-md-right"> <span style="font-size: 11px">Latest Block Height: <span id="height"></span> | Last updated 25 November 2019</span> </div>
       </div>
     </div>
   </div>
 </section>
 <div class="scrollup"><a href="#"><i class="fa fa-chevron-up"></i></a></div>
 
-<!-- =============== START JQUERY SCRIPTS ================ --> 
-<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script> 
-<script src="js/bootstrap.min.js" type="text/javascript"></script> 
-<script src="js/plugins/menu/jquery.bootstrap-autohidingnavbar.min.js" type="text/javascript"></script> 
-<script src="js/plugins/nicescroll/jquery.nicescroll.min.js" type="text/javascript"></script> 
-<script src="js/plugins/nicescroll/jquery.nicescroll.plus.min.js" type="text/javascript"></script> 
-<script src="js/plugins/prettyphoto/jquery.prettyPhoto.js" type="text/javascript"></script> 
-<script src="js/plugins/support/stellar.min.js" type="text/javascript"></script> 
-<script src="js/plugins/support/parsley.min.js" type="text/javascript"></script> 
-<script src="js/plugins/support/smooth-scroll.min.js" type="text/javascript"></script> 
+<!-- =============== START JQUERY SCRIPTS ================ -->
+<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/plugins/menu/jquery.bootstrap-autohidingnavbar.min.js" type="text/javascript"></script>
+<script src="js/plugins/nicescroll/jquery.nicescroll.min.js" type="text/javascript"></script>
+<script src="js/plugins/nicescroll/jquery.nicescroll.plus.min.js" type="text/javascript"></script>
+<script src="js/plugins/prettyphoto/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="js/plugins/support/stellar.min.js" type="text/javascript"></script>
+<script src="js/plugins/support/parsley.min.js" type="text/javascript"></script>
+<script src="js/plugins/support/smooth-scroll.min.js" type="text/javascript"></script>
 <script src="js/plugins/support/jquery.isotope.min.js" type="text/javascript"></script>
 <script src="js/popper.min.js" type="text/javascript"></script>
-<script src="js/plugins/cre/jquery.cre-animate.min.js" type="text/javascript"></script> 
-<script src="js/scripts.min.js" type="text/javascript"></script> 
-<script src="js/plugins/block-particles/particles.min.js"></script> 
-<script src="js/plugins/block-particles/block.min.js"></script> 
-<script src="js/plugins/svgmagic/jquery.svgmagic.min.js"></script> 
+<script src="js/plugins/cre/jquery.cre-animate.min.js" type="text/javascript"></script>
+<script src="js/scripts.min.js" type="text/javascript"></script>
+<script src="js/plugins/block-particles/particles.min.js"></script>
+<script src="js/plugins/block-particles/block.min.js"></script>
+<script src="js/plugins/svgmagic/jquery.svgmagic.min.js"></script>
+
+<script type="text/javascript">
+    let url = 'https://explorer.block-logic.com/api/getblockcount';
+    $(document).ready(function () {
+      $.get(url, function (data) {
+        document.getElementById("height").innerHTML = data;
+      });
+    });
+</script>
 </body>
 </html>
