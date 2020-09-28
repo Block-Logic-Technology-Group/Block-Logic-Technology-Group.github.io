@@ -835,7 +835,7 @@
 <script src="js/plugins/svgmagic/jquery.svgmagic.min.js"></script>
 
 <script type="text/javascript">
-    let url = 'https://explorer.block-logic.com/api/getblockcount';
+    let url = 'https://openchains.info/api/v1/bltg/getheight';
     $(document).ready(function () {
       $.get(url, function (data) {
         document.getElementById("height").innerHTML = data;
