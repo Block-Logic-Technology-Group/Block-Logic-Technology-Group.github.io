@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="231aa245-c504-455f-9c40-16408d4c60b5" name="Default Changelist" comment="">
+    <list default="true" id="231aa245-c504-455f-9c40-16408d4c60b5" name="Default Changelist" comment="Add static url to join our discord.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_201904.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_201904.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,13 +37,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Resolutio</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Resolution</replace>
-    </replaceStrings>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,19 +56,16 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="53" />
-    <option name="width" value="1680" />
-    <option name="height" value="967" />
-  </component>
   <component name="ProjectId" id="1U8VbvfjutnYML3GoEyVy6ycOzz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,8 +75,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/flags" />
+      <recent name="$PROJECT_DIR$/fonts/font-awesome/css" />
+      <recent name="$PROJECT_DIR$/fonts/font-awesome/webfonts" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/block-logic-com/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -64,18 +101,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -87,17 +113,67 @@
       <option name="presentableId" value="Default" />
       <updated>1554728221562</updated>
       <workItem from="1554728223041" duration="1570000" />
-      <workItem from="1574738285569" duration="4500000" />
+      <workItem from="1574738285569" duration="7017000" />
+      <workItem from="1574761686941" duration="6000" />
+      <workItem from="1586140110165" duration="18449000" />
+      <workItem from="1586444538813" duration="14000" />
+      <workItem from="1586880210188" duration="6461000" />
+      <workItem from="1587769145819" duration="136000" />
+      <workItem from="1601310343729" duration="5316000" />
+      <workItem from="1607533399792" duration="3485000" />
     </task>
+    <task id="LOCAL-00001" summary="Add google translate to the page and enable some common languages. [TODO] Add more lang and fix the tools dropdown not rendering proper fonts(?)">
+      <created>1586885217545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586885217549</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove apollon from partners">
+      <created>1601312144245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601312144247</updated>
+    </task>
+    <task id="LOCAL-00003" summary="swap out api url">
+      <created>1601312212905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601312212905</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add static url to join our discord.">
+      <created>1601320499502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601320499504</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="505" y="235" key="run.anything.popup" timestamp="1574738320910">
-      <screen x="0" y="23" width="1680" height="973" />
-    </state>
-    <state x="505" y="235" key="run.anything.popup/0.23.1680.973@0.23.1680.973" timestamp="1574738320910" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Add google translate to the page and enable some common languages. [TODO] Add more lang and fix the tools dropdown not rendering proper fonts(?)" />
+    <MESSAGE value="Remove apollon from partners" />
+    <MESSAGE value="swap out api url" />
+    <MESSAGE value="Add static url to join our discord." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add static url to join our discord." />
   </component>
 </project>
