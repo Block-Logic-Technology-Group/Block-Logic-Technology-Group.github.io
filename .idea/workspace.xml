@@ -29,7 +29,6 @@
   <component name="ChangeListManager">
     <list default="true" id="231aa245-c504-455f-9c40-16408d4c60b5" name="Default Changelist" comment="Add static url to join our discord.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_201904.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_201904.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +119,7 @@
       <workItem from="1586880210188" duration="6461000" />
       <workItem from="1587769145819" duration="136000" />
       <workItem from="1601310343729" duration="5316000" />
-      <workItem from="1607533399792" duration="3485000" />
+      <workItem from="1607533399792" duration="3946000" />
     </task>
     <task id="LOCAL-00001" summary="Add google translate to the page and enable some common languages. [TODO] Add more lang and fix the tools dropdown not rendering proper fonts(?)">
       <created>1586885217545</created>
